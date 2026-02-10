@@ -1,0 +1,47 @@
+body {
+    margin-left: 25;
+    background-color:rgb(233, 224, 200);
+    /*to centre the card*/
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* The Card Container */
+.card {
+    background-color: rgb(219, 209, 161);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Round Profile Image */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgb(92, 71, 1);
+}
+
+h1 {
+    font-size: 25px;
+    color: #333;
+    margin: 10px;
+}
+
+.bio {
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* The Button */
+.btn {
+    background-color: rgba(255, 196, 0, 0.582);
+    color: rgb(77, 47, 4);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
