@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cbf39e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.recipe-card {
+    background-color: #aee763;
+    width: 700px;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+}
+
+.ingredients, .steps {
+    width: 50%;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+ol {
+    padding-left: 20px;
+}
